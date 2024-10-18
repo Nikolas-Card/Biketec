@@ -1,0 +1,150 @@
+a{
+	text-decoration: none;
+}
+header {
+	background-color: #FEC63E;
+	padding: 15px 0;
+	border:  2px solid black;
+}
+.menu {
+	display: inline-block;
+	margin-top: 30px;
+	text-align: right;
+}
+.menu li {
+	display: inline-block;
+}
+.menu li a {
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 10px;
+	text-transform: uppercase;
+}
+.menu li a:hover{
+	color: #FFF;
+	text-shadow: 5px 5px 8px gray;
+	
+}
+.comeco{
+	background-image: url('../img/bg-portifolio.jpg');
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding-top: 45px;
+}
+.comeco h1 {
+	text-transform: uppercase;
+	color: white;
+	font-size: 40px;
+	text-shadow: 0px 0px 10px black;
+	font-weight: bold;
+}
+.comeco p{
+	color:white;
+	width: 30%;
+	margin: 15px auto;
+	letter-spacing: .1em;
+	line-height: 30px;
+}
+.comeco p::before{
+	content: "";
+	width: 60px;
+	height: 4px;
+	display: block;
+	background-color: #FFF;
+	margin: 15px auto;
+}
+.frase1 {
+	text-align: center;
+	font-weight: bold;
+	width: 28%;
+	margin: 40px auto;
+	line-height: 30px;
+	letter-spacing: .1em;
+}
+.frase1 cite{
+	margin-left: 250px;
+	color: red;
+	font-weight: bold;
+	font-family: arial;
+	
+}
+.resto{
+	background-color: black;
+	padding-top: 50px;
+}
+.resto .grid-16{
+	margin-top:20px;
+}
+.frase2{
+	background-image: url('../img/bg-footer.jpg');
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.frase2 p, .frase2 cite{
+	color: white;
+	width: 30%;
+	font-weight: bold;
+	margin: auto;
+	text-align: center;
+	letter-spacing: .1em;
+	line-height: 30px;
+}
+.frase2 cite{
+	margin-left: 825px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.frase2 p::before, .frase2 p::after {
+	content: "";
+	width: 100px;
+	height: 4px;
+	display: block;
+	background-color: #FFF;
+	margin: 30px auto;
+}
+.rodape{
+	background-color: black;
+	color: white;
+}
+.rodape h2{
+	color: #FEC63E;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: .1em;
+	font-family: arial;
+	margin-top: 50px;
+	padding-bottom: 20px;
+}
+.rodape p {
+	color: white;
+	font-size: 20px;
+	width: 70%;
+	padding-top: 2px;
+	margin-bottom: 20px;
+}
+.rodape a {
+	border: 3px solid #FEC63E;
+	color: #FEC63E;
+	padding: 20px 20px;
+}
+.rodape h2::after {
+	content: "";
+	width: 150px;
+	height: 5px;
+	display: block;
+	background-color: #FEC63E;
+	margin-top: 10px;
+}
+.final {
+	background-color: #FEC63E;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: arial;
+	padding-top: 20px;
+}
